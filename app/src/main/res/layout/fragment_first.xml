@@ -1,15 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".firstfragmen">
 
-    <TextView
-        android:id="@+id/textView"
+    <ImageView
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/img_1989"></ImageView>
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/first_fragment"
-        android:textSize="24sp" />
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Nama saya Tegar Lucky Oakley dengan NIM 10118066, saya lahir pada tanggal 21 Desember 2000 di Bandung, saya merupakan Fotografer Freelance"
+            android:textSize="15dp"></TextView>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Hobby : Fotografi, Membaca, Main Games"
+            android:textSize="15dp"></TextView>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Makanan Kesukaan : Ramen"
+            android:textSize="15dp"></TextView>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Minuman Kesukaan : Susu Coklat"
+            android:textSize="15dp"></TextView>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Interest : Saya suka sama cewe bukan cowo"
+            android:textSize="15dp"></TextView>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Cita - Cita : Editor berkelas jedag jedug"
+            android:textSize="15dp"></TextView>
+
+
+
+
+    </LinearLayout>
 
 </FrameLayout>

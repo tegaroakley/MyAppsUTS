@@ -3,12 +3,80 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".FifthFragment">
 
-    <TextView
-        android:id="@+id/textView"
+    <ImageView
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/img_1989"></ImageView>
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fifth Fragment"
-        android:textSize="24sp" />
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Nama saya Tegar Lucky Oakley dengan NIM 10118066, saya merupakan Fotografer Freelance"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Contact :"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Call Phone : 087722287780"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Send Mail : tegaroakley@gmail.com"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Instagram : @tegaroakley"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="TikTok : @iwantsomedonut"
+            android:textSize="15dp"></TextView>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_gravity="bottom"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="About : app ver.10.1"
+        android:textSize="15dp"></TextView>
+
+
 </FrameLayout>
