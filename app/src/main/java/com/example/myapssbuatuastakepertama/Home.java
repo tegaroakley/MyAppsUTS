@@ -1,15 +1,18 @@
 package com.example.myapssbuatuastakepertama;
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
-
-import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+//Tanggal Pengerjaan    : 04 June 2021
+//Nama  : Tegar Lucky Oakley
+//NIM   : 10118066
+//Kelas : IF2
 public class Home extends AppCompatActivity {
 
     @Override

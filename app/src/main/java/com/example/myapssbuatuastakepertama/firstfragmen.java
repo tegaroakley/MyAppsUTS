@@ -1,13 +1,16 @@
 package com.example.myapssbuatuastakepertama;
 
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.fragment.app.Fragment;
+
+//Tanggal Pengerjaan    : 04 June 2021
+//Nama  : Tegar Lucky Oakley
+//NIM   : 10118066
+//Kelas : IF2
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link firstfragmen#newInstance} factory method to

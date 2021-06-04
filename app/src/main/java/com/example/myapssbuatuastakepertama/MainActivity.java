@@ -1,11 +1,15 @@
 package com.example.myapssbuatuastakepertama;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+//Tanggal Pengerjaan    : 04 June 2021
+//Nama  : Tegar Lucky Oakley
+//NIM   : 10118066
+//Kelas : IF2
 public class MainActivity extends AppCompatActivity {
     private static int SPLASH_TIME_OUT = 3500;
 

@@ -15,7 +15,10 @@ import com.example.myapssbuatuastakepertama.Entity.gallery;
 
 import java.util.ArrayList;
 
-
+//Tanggal Pengerjaan    : 04 June 2021
+//Nama  : Tegar Lucky Oakley
+//NIM   : 10118066
+//Kelas : IF2
 public class ThirdFragment extends Fragment {
 
     private RecyclerView rv;

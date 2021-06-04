@@ -19,6 +19,10 @@ import android.widget.TextView;
 
 import com.example.myapssbuatuastakepertama.Home;
 
+//Tanggal Pengerjaan    : 04 June 2021
+//Nama  : Tegar Lucky Oakley
+//NIM   : 10118066
+//Kelas : IF2
 public class Intro extends AppCompatActivity {
 
     private static final int MAX_STEP = 3;

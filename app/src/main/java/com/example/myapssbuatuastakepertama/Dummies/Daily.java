@@ -5,6 +5,10 @@ import com.example.myapssbuatuastakepertama.R;
 
 import java.util.ArrayList;
 
+//Tanggal Pengerjaan    : 04 June 2021
+//Nama  : Tegar Lucky Oakley
+//NIM   : 10118066
+//Kelas : IF2
 public class Daily {
     private static String[] actName ={
             "Bangun Tidur",
